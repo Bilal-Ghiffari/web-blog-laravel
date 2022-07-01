@@ -1,0 +1,212 @@
+/* .form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.input-group {
+    position: relative;
+} */
+
+body {
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+.logo {
+    width: 40px;
+}
+
+.infoartikel {
+    padding: 20px 0px;
+    border-top: 1px solid #dbdbdb;
+    margin: 0px;
+    border-bottom: 0px;
+}
+
+.judul-info {
+    text-decoration: none;
+    color: black;
+}
+
+.value-info a {
+    text-decoration: none;
+    color: #908e94;
+    margin-bottom: 0px;
+}
+
+.value-info {
+    color: #908e94;
+    margin-bottom: 0px;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    font-weight: 500;
+    color: #FF5D3F;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #FF5D3F;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #FF2C85;
+    font-weight: 600;
+}
+
+.css-button-arrow--blue {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    overflow: hidden;
+    border-radius: 5px;
+    border: none;
+    background-color: #3d348b
+}
+
+.css-button-arrow--blue:hover {
+    border-radius: 5px;
+    padding-right: 24px;
+    padding-left: 8px;
+    color: white;
+}
+
+.css-button-arrow--blue:hover:after {
+    opacity: 1;
+    right: 10px;
+}
+
+.css-button-arrow--blue:after {
+    content: "\00BB";
+    position: absolute;
+    opacity: 0;
+    font-size: 20px;
+    line-height: 40px;
+    top: 0;
+    right: -20px;
+    transition: 0.4s;
+}
+
+.link-blog:hover {
+    color: black;
+}
+
+.form-registration input {
+    margin-bottom: -1px;
+    border-radius: 0;
+}
+
+
+.group {
+    position: relative;
+}
+
+.input {
+    font-size: 16px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #515151;
+    background: transparent;
+}
+
+.input:focus {
+    outline: none;
+}
+
+label {
+    color: #999;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+.input:focus~label,
+.input:valid~label {
+    top: -20px;
+    font-size: 14px;
+    color: #5264AE;
+}
+
+.bar {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.bar::before,
+.bar::after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #5264AE;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+.bar::before {
+    left: 50%;
+}
+
+.bar::after {
+    right: 50%;
+}
+
+.input:focus~.bar::before,
+.input:focus~.bar::after {
+    width: 50%;
+}
+
+.highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.input:focus~.highlight {
+    animation: inputHighlighter 0.3s ease;
+}
+
+@keyframes inputHighlighter {
+    from {
+        background: #5264AE;
+    }
+
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
